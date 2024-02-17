@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/p5.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.12.0/matter.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.6.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/matter-attractors@0.1.6/build/matter-attractors.js"></script>
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8" />
+    <style>
+      #myCanvas {
+        background-color: rgb(219, 204, 149);
+        position: absolute; top: 200px; left: 70px;
+  color: #1b3c5a;
+      }
+    </style>
+  </head>
+<body>
+  <h1>Trabajo Practico N°1_v005</h1>
+  <h2>IA2 | ATAM | UNA</h2>
+  <h3>Ferreira, Spagnolo</h3>
+  <br>
+
+  <canvas id="myCanvas" width="400" height="300"></canvas>
+
+  <h4>INSTRUCCIONES:</h4>   
+  <div> - Para cambiar de estado hacer<br> 3 segundos de silencio.<br>
+    <br>- Para cambiar de color y forma<br> emitir un sonido cualquiera.<br><br>
+    - Para dibujar emitir un sonido durante <br>1,5 seg en el estado TAMAÑO.<br><br>
+    - El color de los numeros indicará el <br>tiempo de silencio(en negro) y el de<br>sonido (en verde)
+  </div>
+
+
+
+      <canvas id="canvas"></canvas>
+
+
+    
+    <p></p>
+  <script src="circle.js"></script>
+  <script src="square.js"></script>
+  <script src="rectangle.js"></script>
+  <script src="boundary.js"></script>
+  <script src="gestor.js"></script>
+  <script src="sketch.js"></script>
+</body>
+</html>

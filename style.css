@@ -1,0 +1,38 @@
+html, body {
+  font-family: Verdana, sans-serif;
+  width:80%;
+  margin-left:auto;
+  margin-right:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+canvas{
+  float: left;
+  
+}
+
+h1{
+  margin: 0px;
+
+}
+h2{  margin: -0px;
+}
+h3{  margin: 0px;
+}
+
+h4{
+  text-align: left; position: absolute; top: 200px; left: 100px;
+  color: #292929;
+}
+div{
+  text-align: left; position: absolute; top: 250px; left: 100px;color: #292929;
+}
+p {
+float: right;
+  margin-top: -140px;
+  margin-bottom: 10px;
+}
